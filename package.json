@@ -11,7 +11,7 @@
     "test": "jest",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack.config.js",
     "start:prod": "cross-env NODE_ENV=production webpack-dev-server --config ./webpack.config.js",
-    "deploy": "gh-pages -d dist -r https://github.com/RoboPhred/oni-duplicity"
+    "deploy": "gh-pages -d dist -r https://github.com/cLonata/duplicity"
   },
   "private": true,
   "keywords": [
@@ -20,6 +20,12 @@
     "save-editor"
   ],
   "author": "RoboPhred <robophred@gmail.com>",
+  "contributors" : [
+    {
+    "name": "cLonata",
+    "url": "https://github.com/cLonata/"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/classnames": "^2.2.9",
