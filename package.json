@@ -11,7 +11,7 @@
     "test": "jest",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack.config.js",
     "start:prod": "cross-env NODE_ENV=production webpack-dev-server --config ./webpack.config.js",
-    "deploy": "gh-pages -d dist -r https://github.com/cLonata/duplicity"
+    "deploy": "gh-pages -d dist -b live -r https://github.com/cLonata/duplicity"
   },
   "private": true,
   "keywords": [
